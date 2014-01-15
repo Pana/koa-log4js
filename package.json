@@ -1,0 +1,22 @@
+{
+  "name": "koa-log4js",
+  "version": "0.0.0",
+  "description": "log4js middleware for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "koa",
+    "logger"
+  ],
+  "author": "Pana",
+  "license": "MIT",
+  "dependencies": {
+    "log4js": "~0.6.9"
+  },
+  "devDependencies": {
+    "koa": "~0.2.1",
+    "mocha": "~1.17.0"
+  }
+}
