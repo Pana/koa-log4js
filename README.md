@@ -1,7 +1,7 @@
 koa-log4js
 ==========
 
-Log4js logger middleware for koa.
+[Log4js](https://github.com/nomiddlename/log4js-node) logger middleware for koa.
 
 
 ## Install
@@ -34,3 +34,9 @@ app.use(logger({
 
 
 ```
+
+
+## TODO
+
+* make the options better
+* make the log format configurable
