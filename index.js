@@ -20,7 +20,7 @@ module.exports = function(opts){
                 },
                 {
                     type: 'file', 
-                    filename: opts.file, 
+                    filename: opts.file || opts.filename, 
                     maxLogSize: opts.size || 10*1024*1024,
                     backups: opts.backups || 4,
                     category: loggerName
